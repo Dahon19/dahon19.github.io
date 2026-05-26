@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Professional Information Technology Portfolio of Rod Allen B. Agregado."
+    />
+    <title>Professional Information Technology Portfolio</title>
+    <script>
+      (function () {
+        const isLocalHost = ["localhost", "127.0.0.1"].includes(window.location.hostname);
+
+        if (!isLocalHost) {
+          const stylesheet = document.createElement("link");
+          stylesheet.rel = "stylesheet";
+          stylesheet.href = "/Portfolio/assets/app.css";
+          document.head.appendChild(stylesheet);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/Portfolio/assets/app.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
