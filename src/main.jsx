@@ -1,5 +1,5 @@
-const productionStylesheet = "/Portfolio/assets/app-entry-2pSaNgVX.css?v=20260528-cachefix";
-const productionEntry = "/Portfolio/assets/app-entry-Bo7LUriQ.js?v=20260528-cachefix";
+const productionStylesheet = "/Portfolio/assets/index-wPSjIuRx.css?v=20260528-ui";
+const productionEntry = "/Portfolio/assets/index-BPl7I4g-.js?v=20260528-ui";
 
 if (!document.querySelector(`link[href^="${productionStylesheet.split("?")[0]}"]`)) {
   const stylesheet = document.createElement("link");
