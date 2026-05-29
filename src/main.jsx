@@ -1,5 +1,5 @@
 const productionStylesheet = "/Portfolio/assets/app-CSPA4cU_.css?v=20260529-equal-projects-contact";
-const productionEntry = "/Portfolio/assets/app-Iq9BprUj.js?v=20260529-all-drive-certs";
+const productionEntry = "/Portfolio/assets/app-BWC6K4PB.js?v=20260529-project-cleanup";
 
 if (!document.querySelector(`link[href^="${productionStylesheet.split("?")[0]}"]`)) {
   const stylesheet = document.createElement("link");
