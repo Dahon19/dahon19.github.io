@@ -1,5 +1,5 @@
-const productionStylesheet = "/Portfolio/assets/app-s7ug98EG.css?v=20260529-certs-clean";
-const productionEntry = "/Portfolio/assets/app-d_jPIQjV.js?v=20260529-certs-clean";
+const productionStylesheet = "/Portfolio/assets/app-CpTMi6jY.css?v=20260529-responsive-cards";
+const productionEntry = "/Portfolio/assets/app-DCrt7i7r.js?v=20260529-responsive-cards";
 
 if (!document.querySelector(`link[href^="${productionStylesheet.split("?")[0]}"]`)) {
   const stylesheet = document.createElement("link");
