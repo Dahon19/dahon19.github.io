@@ -1,5 +1,5 @@
-const productionStylesheet = "/Portfolio/assets/app-DbEsZ1T-.css?v=20260529-full-ui-optimization";
-const productionEntry = "/Portfolio/assets/app-Hzb9I45D.js?v=20260529-full-ui-optimization";
+const productionStylesheet = "/Portfolio/assets/app-BqvCXp7J.css?v=20260529-brutalist-premium";
+const productionEntry = "/Portfolio/assets/app-Af647Psx.js?v=20260529-brutalist-premium";
 const portraitFallbackSources = [
   "/Portfolio/assets/rod-allen-profile-web-BRP0ZP85.jpg",
   "/Portfolio/rod-allen-profile-clean.jpg?v=20260527c",
@@ -13,7 +13,7 @@ if (!document.querySelector(`link[href^="${productionStylesheet.split("?")[0]}"]
   document.head.appendChild(stylesheet);
 }
 
-import(productionEntry);
+import(/* @vite-ignore */ productionEntry);
 
 function installPortraitFallback() {
   let attempts = 0;
